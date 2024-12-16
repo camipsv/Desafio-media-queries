@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fontdiner+Swanky&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <img src="./assets/img/logo.jpg">
+            <div class="titulo">
+                <h1>Dragón arcano</h1>
+                <p>Juegos de mesa</p>
+            </div>
+            <div class="navbar-icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </header>
+
+        <nav>
+            <div class="navbar">
+                <a href="#"> <i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+                <a href="#">Destacados</a>
+                <a href="#">Juevos de mesa</a>
+                <a href="#">Juegos de cartas</a>
+                <a href="#">Juegos de rol</a>
+                <a href="#">Accesorios</a>
+                <a href="#">Coleccionables</a>
+                <a href="#">Librería</a>
+                <a href="#">Promociones</a>
+                <a href="#">Preventas</a>
+                <a href="#">Noticias</a>
+            </div>
+        </nav>
+        
+        <div class="filtros">
+            <div>
+                <p>Buscar por nombre:</p>
+                <input type="text" />
+            </div>
+            <div>
+                <p>Ordenar por:</p>
+                <select>
+                    <option value="precio">Precio</option>
+                    <option value="fecha">Fecha</option>
+                    <option value="fecha">Destacados</option>
+                </select>
+            </div>
+            <div>
+                <p>Mostrar solo artículos:</p>
+                Disponibles <input type="checkbox" />
+                Todos <input type="checkbox" />
+            </div>
+        </div>
+
+        <main>
+            <div class="Desctacados">
+                <h3>Destacados</h3>
+                <section class="card-container">
+                    <div class="card">
+                        <img src="./assets/img/dadoverde.jpg" alt="Imagen de ejemplo">
+                        <h4>Set de dados</h4>
+                        <p>$14.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/deckbox.jpg" alt="Imagen de ejemplo">
+                        <h4>Deckbox</h4>
+                        <p>$5.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/dyd.JPG" alt="Imagen de ejemplo">
+                        <h4>Dungeon master´s guide</h4>
+                        <p>$49.990</p>
+                    <button>Ver más</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="juegodemesa">
+                <h3>Juegos de mesa</h3>
+                <section class="card-container">
+                    <div class="card">
+                        <img src="./assets/img/catan.JPG" alt="Imagen de ejemplo">
+                        <h4>Catán</h4>
+                        <p>$29.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/kittens.jpg" alt="Imagen de ejemplo">
+                        <h4>Exploding Kittens</h4>
+                        <p>$15.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/virus.jpg" alt="Imagen de ejemplo">
+                        <h4>Virus</h4>
+                        <p>$13.990</p>
+                        <button>Ver más</button>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="juegodecarta">
+                <h3>Juegos de cartas</h3>
+                <section class="card-container">
+                    <div class="card">
+                        <img src="./assets/img/tcgop.JPG" alt="Imagen de ejemplo">
+                        <h4>One piece Tcg 500 Years in the future booster box</h4>
+                        <p>$135.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/tcg pkm.JPG" alt="Imagen de ejemplo">
+                        <h4>Pokemon Tcg</h4>
+                        <p>$4.490</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/magictcg.JPG" alt="Imagen de ejemplo">
+                        <h4>Commander Deck</h4>
+                        <p>$52.990</p>
+                        <button>Ver más</button>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="juegoderol">
+                <h3>Juegos de rol</h3>
+                <section class="card-container">
+                    <div class="card">
+                        <img src="./assets/img/elanillo.JPG" alt="Imagen de ejemplo">
+                        <h4>El anillo único</h4>
+                        <p>$44.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/vampiro.JPG" alt="Imagen de ejemplo">
+                        <h4>Vampiro La mascarada</h4>
+                        <p>$19.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/path.JPG" alt="Imagen de ejemplo">
+                        <h4>Pathfinder</h4>
+                        <p>$42.990</p>
+                        <button>Ver más</button>
+                    </div>
+                </section>
+            </div>
+    
+            <div class="accesorios">
+                <h3>Accesorios</h3>
+                <section class="card-container">
+                    <div class="card">
+                        <img src="./assets/img/dadorosa.jpg" alt="Imagen de ejemplo">
+                        <h4>Set de dados </h4>
+                        <p>$8.990</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/protectorcartas.jpg" alt="Imagen de ejemplo">
+                        <h4>Protectores de cartas</h4>
+                        <p>$3.500</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/Playmat.jpg" alt="Imagen de ejemplo">
+                        <h4>Playmat</h4>
+                        <p>$24.990</p>
+                        <button>Ver más</button>
+                    </div>
+                </section>
+            </div>
+            
+            <ul class="paginador">
+                <li><a href="#">«</a></li>
+                <li class="activo"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+        </main>
+        
+        <footer>
+            <p>Contáctanos</p>
+            <div class="links">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="newsletter">
+                <form action="" method="POST">
+                    <label for="email">Suscríbete a nuestra newsletter</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tuemail@ejemplo.com"
+                        required
+                    />
+                    <button class="suscribe" type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
